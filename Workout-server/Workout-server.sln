@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlacesAPI", "PlacesAPI\PlacesAPI.csproj", "{D19EB03C-F316-47EB-9A0C-EF9440A2A0F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D19EB03C-F316-47EB-9A0C-EF9440A2A0F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19EB03C-F316-47EB-9A0C-EF9440A2A0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19EB03C-F316-47EB-9A0C-EF9440A2A0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19EB03C-F316-47EB-9A0C-EF9440A2A0F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F93A9CE1-842F-40DD-8A64-0592341EDD58}
+	EndGlobalSection
+EndGlobal

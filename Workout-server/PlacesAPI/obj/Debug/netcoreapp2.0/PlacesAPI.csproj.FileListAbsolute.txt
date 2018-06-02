@@ -1,0 +1,11 @@
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\PlacesAPI\bin\Debug\netcoreapp2.0\PlacesAPI.deps.json
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\PlacesAPI\bin\Debug\netcoreapp2.0\PlacesAPI.runtimeconfig.json
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\PlacesAPI\bin\Debug\netcoreapp2.0\PlacesAPI.runtimeconfig.dev.json
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\PlacesAPI\bin\Debug\netcoreapp2.0\PlacesAPI.dll
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\PlacesAPI\bin\Debug\netcoreapp2.0\PlacesAPI.pdb
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\PlacesAPI\obj\Debug\netcoreapp2.0\PlacesAPI.csprojResolveAssemblyReference.cache
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\PlacesAPI\obj\Debug\netcoreapp2.0\PlacesAPI.csproj.CoreCompileInputs.cache
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\PlacesAPI\obj\Debug\netcoreapp2.0\PlacesAPI.AssemblyInfoInputs.cache
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\PlacesAPI\obj\Debug\netcoreapp2.0\PlacesAPI.AssemblyInfo.cs
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\PlacesAPI\obj\Debug\netcoreapp2.0\PlacesAPI.dll
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\PlacesAPI\obj\Debug\netcoreapp2.0\PlacesAPI.pdb
