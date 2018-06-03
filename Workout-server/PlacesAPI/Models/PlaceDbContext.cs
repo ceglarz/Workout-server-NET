@@ -10,8 +10,11 @@ namespace PlacesAPI.Models
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=PlaceDb;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer
+           ("Server=(localdb)\\mssqllocaldb;Database=PlaceDb;Trusted_Connection=True;");
         }
+
         public DbSet<Place> Places { get; set; }
+
     }
 }

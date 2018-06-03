@@ -35,7 +35,6 @@ namespace PlacesAPI
             {
                 app.UseDeveloperExceptionPage();
             }
-
             app.UseStaticFiles();
             app.UseMvc();
         }

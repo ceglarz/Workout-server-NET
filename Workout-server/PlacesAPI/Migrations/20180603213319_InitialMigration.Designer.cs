@@ -11,7 +11,7 @@ using System;
 namespace PlacesAPI.Migrations
 {
     [DbContext(typeof(PlaceDbContext))]
-    [Migration("20180603200459_InitialMigration")]
+    [Migration("20180603213319_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,8 +23,7 @@ namespace PlacesAPI.Migrations
 
             modelBuilder.Entity("PlacesAPI.Models.Place", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
+                    b.Property<int>("Id");
 
                     b.Property<int>("Active");
 

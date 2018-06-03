@@ -22,8 +22,7 @@ namespace PlacesAPI.Migrations
 
             modelBuilder.Entity("PlacesAPI.Models.Place", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
+                    b.Property<int>("Id");
 
                     b.Property<int>("Active");
 
