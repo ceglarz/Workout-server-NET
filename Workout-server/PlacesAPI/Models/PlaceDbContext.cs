@@ -12,6 +12,7 @@ namespace PlacesAPI.Models
         {
             optionsBuilder.UseSqlServer
            ("Server=(localdb)\\mssqllocaldb;Database=PlaceDb;Trusted_Connection=True;");
+
         }
 
         public DbSet<Place> Places { get; set; }
