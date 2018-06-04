@@ -25,9 +25,18 @@ namespace Gateway.Controllers
         }
 
         // GET: Places/Details/5
-        public ActionResult Details(int id)
+        [Route("Places/Details/{id}")]
+        public async Task<IActionResult> Details([FromRoute] int id)
+        //public ActionResult Details(int id)
         {
-            return View();
+            var httpClient = new HttpClient();
+            var jsonData = await httpClient.GetStringAsync("http://localhost:50001/api/Places/");
+            var data = JsonConvert.DeserializeObject<IEnumerable<Place>>(jsonData);
+
+            var place = data.Where(p => p.Id == id).FirstOrDefault(); ;
+
+            return View(place);
+            //return View();
         }
 
         // GET: Places/Create
