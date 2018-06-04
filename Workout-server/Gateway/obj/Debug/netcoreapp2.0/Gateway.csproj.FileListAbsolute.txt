@@ -1,0 +1,11 @@
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\Gateway\bin\Debug\netcoreapp2.0\Gateway.deps.json
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\Gateway\bin\Debug\netcoreapp2.0\Gateway.runtimeconfig.json
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\Gateway\bin\Debug\netcoreapp2.0\Gateway.runtimeconfig.dev.json
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\Gateway\bin\Debug\netcoreapp2.0\Gateway.dll
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\Gateway\obj\Debug\netcoreapp2.0\Gateway.csprojResolveAssemblyReference.cache
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\Gateway\obj\Debug\netcoreapp2.0\Gateway.csproj.CoreCompileInputs.cache
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\Gateway\obj\Debug\netcoreapp2.0\Gateway.AssemblyInfoInputs.cache
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\Gateway\obj\Debug\netcoreapp2.0\Gateway.AssemblyInfo.cs
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\Gateway\bin\Debug\netcoreapp2.0\Gateway.pdb
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\Gateway\obj\Debug\netcoreapp2.0\Gateway.dll
+C:\Users\Oskar\source\repos\Workout-server-NET\Workout-server-NET\Workout-server\Gateway\obj\Debug\netcoreapp2.0\Gateway.pdb
