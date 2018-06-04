@@ -46,6 +46,24 @@ namespace PlacesAPI.Controllers
             return Ok(place);
         }
 
+        // GET: api/Places/5
+        [HttpGet("whereiam/{latitude}/{longitude}")]
+        public async Task<IActionResult> WhereIam([FromRoute] double latitude, [FromRoute] double longitude)
+        {
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+ 
+            var closestPlace = _context.Places
+            .Select(p => new { p, distance = Math.Sqrt(Math.Abs(p.Latitude - latitude) + Math.Abs(p.Longitude - longitude)) })
+            .OrderBy(p => p.distance)
+            .First().p;
+
+            return Ok(closestPlace);
+        }
+
         // PUT: api/Places/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutPlace([FromRoute] int id, [FromBody] Place place)
