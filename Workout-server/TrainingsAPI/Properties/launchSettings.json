@@ -19,7 +19,7 @@
     "TrainingsAPI": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "api/Trainings",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

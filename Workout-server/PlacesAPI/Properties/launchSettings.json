@@ -19,7 +19,7 @@
     "PlacesAPI": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "api/Places",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
