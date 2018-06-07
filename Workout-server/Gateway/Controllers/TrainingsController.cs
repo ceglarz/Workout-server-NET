@@ -25,9 +25,16 @@ namespace Gateway.Controllers
         }
 
         // GET: Trainings/Details/5
-        public ActionResult Details(int id)
+        [Route("Trainings/Details/{id}")]
+        public async Task<IActionResult> Details([FromRoute] int id)
         {
-            return View();
+            var httpClient = new HttpClient();
+            var jsonData = await httpClient.GetStringAsync("http://localhost:50002/api/Trainings/");
+            var data = JsonConvert.DeserializeObject<IEnumerable<Training>>(jsonData);
+
+            var training = data.Where(p => p.Id == id).FirstOrDefault(); ;
+
+            return View(training);
         }
 
         // GET: Trainings/Create
